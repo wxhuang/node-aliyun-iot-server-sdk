@@ -1,5 +1,7 @@
 # node-ali-iot-server-sdk
 Aliyun IOT server SDK for Node.Js
+# SDK version
+20160530
 # Usage
 ```js
 import {AcsClient, ServerOnlineAction} from './index'
