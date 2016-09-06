@@ -1,0 +1,25 @@
+{
+  "name": "ali-iot-server-sdk",
+  "version": "1.0.0",
+  "description": "aliyun IOT server SDK for nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wxhuang/node-aliyun-iot-server-sdk.git"
+  },
+  "keywords": [
+    "aliyun",
+    "IOT"
+  ],
+  "dependencies": {
+    "crypto": "~0.0.3",
+    "js-schema": "~1.0.1",
+    "moment": "~2.14.0",
+    "node-fetch": "~1.6.0"
+  },
+  "author": "wxhuang",
+  "license": "MIT"
+}
