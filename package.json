@@ -21,6 +21,11 @@
     "moment": "~2.14.0",
     "node-fetch": "~1.6.0"
   },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-3": "^6.11.0"
+  },
   "babel":{
     "presets": ["es2015", "stage-3"]
   },
