@@ -10,7 +10,7 @@ import {DevicePermitModifyAction,
   SubAction,
   UnSubAction,
   AcsClient,
-} from './index';
+} from './src/index';
 
 var main = async function() {
   let acsClient = new AcsClient('your access key ID', 'your access key secret');
