@@ -26,10 +26,8 @@
     "babel-preset-stage-3": "^6.11.0"
   },
   "babel": {
-    "presets": [
-      "es2015",
-      "stage-3"
-    ]
+    "presets": ["es2015", "stage-3"]
+
   },
   "author": "wxhuang",
   "license": "MIT"
