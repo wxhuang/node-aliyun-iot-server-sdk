@@ -2,9 +2,9 @@
   "name": "ali-iot-server-sdk",
   "version": "1.0.0",
   "description": "aliyun IOT server SDK for nodejs.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "prepublish": "babel src --out-dir lib",
+    "postinstall": "node_modules/.bin/babel src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,13 +16,20 @@
     "IOT"
   ],
   "dependencies": {
-    "crypto": "~0.0.3",
     "js-schema": "~1.0.1",
     "moment": "~2.14.0",
     "node-fetch": "~1.6.0"
   },
-  "babel":{
-    "presets": ["es2015", "stage-3"]
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-3": "^6.11.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-3"
+    ]
   },
   "author": "wxhuang",
   "license": "MIT"
