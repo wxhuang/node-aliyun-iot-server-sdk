@@ -20,6 +20,12 @@ let getRandom = function(){
   return Math.floor((Math.random() + 1) * 10000000).toString();
 };
 
+let _checkSubCallbackSignature = function(productKey, productSecret, message, sign) {
+  const md5sum = crypto.createHash('md5');
+  md5sum.update(`${productKey}${message}${productSecret}`);
+  return md5sum.digest('hex') === sign;
+};
+
 class AliIotBasicAction {
   constructor({format = 'json', version = '2016-05-30', signatureMethod = 'HMAC-SHA1', signatureVersion = '1.0', regionId = 'cn-hangzhou'}) {
     this.httpMethod = 'GET';
