@@ -2,6 +2,14 @@
 Aliyun IOT server SDK for Node.Js
 # SDK version
 20160530
+# Installation
+This package is witten with ES6 and async/await syntax, it has to be compiled by babel at present.
+```
+git clone https://github.com/wxhuang/node-aliyun-iot-server-sdk.git
+cd node-aliyun-iot-server-sdk
+npm install --only=dev
+npm install
+```
 # Usage
 ```js
 import {AcsClient, ServerOnlineAction} from './index'
