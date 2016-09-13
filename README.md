@@ -1,4 +1,4 @@
-# node-ali-iot-server-sdk
+# node-aliyun-iot-server-sdk
 Aliyun IOT server SDK for Node.Js
 # SDK version
 20160530
