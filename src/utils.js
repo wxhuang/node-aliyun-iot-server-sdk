@@ -75,7 +75,7 @@ class AcsClient {
     let data;
     let str = action.reqUrl(this);
     try{
-      data = JSON.parse(await (await fetch(str)).text());
+      data = await (await fetch(str)).json();
     }catch(e) {
       throw e;
     }
