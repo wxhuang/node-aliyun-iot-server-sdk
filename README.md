@@ -11,7 +11,7 @@ npm install --dev
 ```
 # Usage
 ```js
-import {AcsClient, ServerOnlineAction} from './index'
+import {AcsClient, ServerOnlineAction} from 'node-aliyun-iot-server-sdk'
 
 let client = new AcsClient('your access key ID', 'your access key secret');
 try {
